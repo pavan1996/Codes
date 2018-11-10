@@ -22,9 +22,9 @@ def sumofSubset(arr, sum, i, dict, set):
 
 
 arr = [2, 4, 6, 10, 16, 11, 12]
-i = len(arr) - 1
+index = len(arr) - 1
 dict = {}
 sum = 16
 set = []
-numberOfSubsets = sumofSubset(arr, sum, i, dict, set)
+numberOfSubsets = sumofSubset(arr, sum, index, dict, set)
 print("Number of subsets with sum = {0} is {1}".format(sum, numberOfSubsets))
